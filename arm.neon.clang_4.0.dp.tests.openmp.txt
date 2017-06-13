@@ -1,0 +1,430 @@
+Regression tests of Grid/tests (double precision, OpenMP)
+Exit code status
+
+check ./tests/Test_dwf_mixedcg_prec
+PASS  ./tests/Test_dwf_mixedcg_prec
+runtime 5 seconds
+
+check ./tests/debug/Test_cayley_even_odd
+PASS  ./tests/debug/Test_cayley_even_odd
+runtime 8 seconds
+
+check ./tests/debug/Test_cayley_coarsen_support
+FAIL  ./tests/debug/Test_cayley_coarsen_support
+runtime 1 seconds
+
+check ./tests/debug/Test_cayley_ldop_cr
+FAIL  ./tests/debug/Test_cayley_ldop_cr
+runtime 1 seconds
+
+check ./tests/debug/Test_zmm
+FAIL  ./tests/debug/Test_zmm
+runtime 0 seconds
+
+check ./tests/debug/Test_cheby
+PASS  ./tests/debug/Test_cheby
+runtime 1 seconds
+
+check ./tests/debug/Test_synthetic_lanczos
+PASS  ./tests/debug/Test_synthetic_lanczos
+runtime 5 seconds
+
+check ./tests/debug/Test_cayley_cg
+PASS  ./tests/debug/Test_cayley_cg
+runtime 323 seconds
+
+check ./tests/Test_dwf_mixedcg_prec_halfcomms
+PASS  ./tests/Test_dwf_mixedcg_prec_halfcomms
+runtime 20 seconds
+
+check ./tests/forces/Test_gp_rect_force
+PASS  ./tests/forces/Test_gp_rect_force
+runtime 0 seconds
+
+check ./tests/forces/Test_gpwilson_force
+PASS  ./tests/forces/Test_gpwilson_force
+runtime 1 seconds
+
+check ./tests/forces/Test_gpdwf_force
+PASS  ./tests/forces/Test_gpdwf_force
+runtime 1 seconds
+
+check ./tests/forces/Test_partfrac_force
+PASS  ./tests/forces/Test_partfrac_force
+runtime 1 seconds
+
+check ./tests/forces/Test_mobius_force
+PASS  ./tests/forces/Test_mobius_force
+runtime 1 seconds
+
+check ./tests/forces/Test_dwf_force
+PASS  ./tests/forces/Test_dwf_force
+runtime 0 seconds
+
+check ./tests/forces/Test_dwf_gpforce
+PASS  ./tests/forces/Test_dwf_gpforce
+runtime 2 seconds
+
+check ./tests/forces/Test_contfrac_force
+PASS  ./tests/forces/Test_contfrac_force
+runtime 1 seconds
+
+check ./tests/forces/Test_zmobius_force
+PASS  ./tests/forces/Test_zmobius_force
+runtime 1 seconds
+
+check ./tests/forces/Test_laplacian_force
+PASS  ./tests/forces/Test_laplacian_force
+runtime 11 seconds
+
+check ./tests/forces/Test_rect_force
+PASS  ./tests/forces/Test_rect_force
+runtime 0 seconds
+
+check ./tests/forces/Test_wilson_force
+PASS  ./tests/forces/Test_wilson_force
+runtime 0 seconds
+
+check ./tests/core/Test_fft
+FAIL  ./tests/core/Test_fft
+runtime 1 seconds
+
+check ./tests/core/Test_wilson_even_odd
+PASS  ./tests/core/Test_wilson_even_odd
+runtime 0 seconds
+
+check ./tests/core/Test_cf_coarsen_support
+FAIL  ./tests/core/Test_cf_coarsen_support
+runtime 1 seconds
+
+check ./tests/core/Test_RectPlaq
+FAIL  ./tests/core/Test_RectPlaq
+runtime 0 seconds
+
+check ./tests/core/Test_cshift_red_black_rotate
+PASS  ./tests/core/Test_cshift_red_black_rotate
+runtime 1 seconds
+
+check ./tests/core/Test_staggered5D
+PASS  ./tests/core/Test_staggered5D
+runtime 11 seconds
+
+check ./tests/core/Test_cshift_rotate
+PASS  ./tests/core/Test_cshift_rotate
+runtime 2 seconds
+
+check ./tests/core/Test_dwf_even_odd
+PASS  ./tests/core/Test_dwf_even_odd
+runtime 2 seconds
+
+check ./tests/core/Test_rng_fixed
+PASS  ./tests/core/Test_rng_fixed
+runtime 0 seconds
+
+check ./tests/core/Test_cshift_red_black
+PASS  ./tests/core/Test_cshift_red_black
+runtime 1 seconds
+
+check ./tests/core/Test_staggered5Dvec
+PASS  ./tests/core/Test_staggered5Dvec
+runtime 40 seconds
+
+check ./tests/core/Test_rng
+PASS  ./tests/core/Test_rng
+runtime 1 seconds
+
+check ./tests/core/Test_fftf
+FAIL  ./tests/core/Test_fftf
+runtime 0 seconds
+
+check ./tests/core/Test_checker
+FAIL  ./tests/core/Test_checker
+runtime 0 seconds
+
+check ./tests/core/Test_gamma
+PASS  ./tests/core/Test_gamma
+runtime 0 seconds
+
+check ./tests/core/Test_zmobius_even_odd
+PASS  ./tests/core/Test_zmobius_even_odd
+runtime 3 seconds
+
+check ./tests/core/Test_dwf_rb5d
+PASS  ./tests/core/Test_dwf_rb5d
+runtime 2 seconds
+
+check ./tests/core/Test_quenched_update
+PASS  ./tests/core/Test_quenched_update
+runtime 855 seconds
+
+check ./tests/core/Test_poisson_fft
+FAIL  ./tests/core/Test_poisson_fft
+runtime 0 seconds
+
+check ./tests/core/Test_mobius_even_odd
+PASS  ./tests/core/Test_mobius_even_odd
+runtime 2 seconds
+
+check ./tests/core/Test_GaugeAction
+FAIL  ./tests/core/Test_GaugeAction
+runtime 1 seconds
+
+check ./tests/core/Test_contfrac_even_odd
+PASS  ./tests/core/Test_contfrac_even_odd
+runtime 7 seconds
+
+check ./tests/core/Test_staggered
+PASS  ./tests/core/Test_staggered
+runtime 1 seconds
+
+check ./tests/core/Test_fft_gfix
+FAIL  ./tests/core/Test_fft_gfix
+runtime 0 seconds
+
+check ./tests/core/Test_lie_generators
+FAIL  ./tests/core/Test_lie_generators
+runtime 1 seconds
+
+check ./tests/core/Test_wilson_twisted_mass_even_odd
+PASS  ./tests/core/Test_wilson_twisted_mass_even_odd
+runtime 0 seconds
+
+check ./tests/core/Test_gparity
+PASS  ./tests/core/Test_gparity
+runtime 1 seconds
+
+check ./tests/core/Test_gpwilson_even_odd
+PASS  ./tests/core/Test_gpwilson_even_odd
+runtime 0 seconds
+
+check ./tests/Test_stencil
+PASS  ./tests/Test_stencil
+runtime 1 seconds
+
+check ./tests/hmc/Test_rhmc_WilsonRatio
+PASS  ./tests/hmc/Test_rhmc_WilsonRatio
+runtime 5088 seconds
+
+check ./tests/hmc/Test_hmc_IwasakiGauge
+PASS  ./tests/hmc/Test_hmc_IwasakiGauge
+runtime 61 seconds
+
+check ./tests/hmc/Test_hmc_EODWFRatioLsVectorised
+FAIL  ./tests/hmc/Test_hmc_EODWFRatioLsVectorised
+runtime 1 seconds
+
+check ./tests/hmc/Test_hmc_WilsonTwoIndexSymmetricFermionGauge
+FAIL  ./tests/hmc/Test_hmc_WilsonTwoIndexSymmetricFermionGauge
+runtime 3 seconds
+
+check ./tests/hmc/Test_rhmc_EOWilsonRatio
+PASS  ./tests/hmc/Test_rhmc_EOWilsonRatio
+runtime 1795 seconds
+
+check ./tests/hmc/Test_hmc_WilsonMixedRepresentationsFermionGauge
+FAIL  ./tests/hmc/Test_hmc_WilsonMixedRepresentationsFermionGauge
+runtime 12 seconds
+
+check ./tests/hmc/Test_rhmc_Wilson1p1
+PASS  ./tests/hmc/Test_rhmc_Wilson1p1
+runtime 3646 seconds
+
+check ./tests/hmc/Test_hmc_ScalarAction
+PASS  ./tests/hmc/Test_hmc_ScalarAction
+runtime 1 seconds
+
+check ./tests/hmc/Test_hmc_GparityIwasakiGauge
+PASS  ./tests/hmc/Test_hmc_GparityIwasakiGauge
+runtime 876 seconds
+
+check ./tests/hmc/Test_hmc_EOWilsonRatio
+PASS  ./tests/hmc/Test_hmc_EOWilsonRatio
+runtime 542 seconds
+
+check ./tests/hmc/Test_remez
+PASS  ./tests/hmc/Test_remez
+runtime 13 seconds
+
+check ./tests/hmc/Test_hmc_WilsonRatio
+PASS  ./tests/hmc/Test_hmc_WilsonRatio
+runtime 1303 seconds
+
+check ./tests/hmc/Test_multishift_sqrt
+PASS  ./tests/hmc/Test_multishift_sqrt
+runtime 7 seconds
+
+check ./tests/hmc/Test_hmc_Factories
+FAIL  ./tests/hmc/Test_hmc_Factories
+runtime 0 seconds
+
+check ./tests/hmc/Test_rhmc_EOWilson1p1
+PASS  ./tests/hmc/Test_rhmc_EOWilson1p1
+runtime 1507 seconds
+
+check ./tests/hmc/Test_hmc_WilsonTMFermionGauge
+PASS  ./tests/hmc/Test_hmc_WilsonTMFermionGauge
+runtime 789 seconds
+
+check ./tests/hmc/Test_hmc_GparityWilsonGauge
+PASS  ./tests/hmc/Test_hmc_GparityWilsonGauge
+runtime 24 seconds
+
+check ./tests/hmc/Test_hmc_WilsonAdjointFermionGauge
+FAIL  ./tests/hmc/Test_hmc_WilsonAdjointFermionGauge
+runtime 4 seconds
+
+check ./tests/hmc/Test_hmc_EOMobiusRatio
+FAIL  ./tests/hmc/Test_hmc_EOMobiusRatio
+runtime 0 seconds
+
+check ./tests/hmc/Test_hmc_EODWFRatio
+PASS  ./tests/hmc/Test_hmc_EODWFRatio
+runtime 5269 seconds
+
+check ./tests/hmc/Test_hmc_WilsonGauge
+PASS  ./tests/hmc/Test_hmc_WilsonGauge
+runtime 23 seconds
+
+check ./tests/hmc/Test_hmc_WilsonFermionGauge
+PASS  ./tests/hmc/Test_hmc_WilsonFermionGauge
+runtime 1075 seconds
+
+check ./tests/hmc/Test_hmc_EOWilsonFermionGauge
+PASS  ./tests/hmc/Test_hmc_EOWilsonFermionGauge
+runtime 491 seconds
+
+check ./tests/hmc/Test_hmc_RectGauge
+PASS  ./tests/hmc/Test_hmc_RectGauge
+runtime 61 seconds
+
+check ./tests/hmc/Test_hmc_EOMobiusRatioManyFlavour
+FAIL  ./tests/hmc/Test_hmc_EOMobiusRatioManyFlavour
+runtime 0 seconds
+
+check ./tests/hmc/Test_hmc_EODWFRatio_Gparity
+PASS  ./tests/hmc/Test_hmc_EODWFRatio_Gparity
+runtime 12215 seconds
+
+check ./tests/solver/Test_contfrac_cg
+PASS  ./tests/solver/Test_contfrac_cg
+runtime 90 seconds
+
+check ./tests/solver/Test_staggered_block_cg_unprec
+PASS  ./tests/solver/Test_staggered_block_cg_unprec
+runtime 19 seconds
+
+check ./tests/solver/Test_wilson_cg_prec
+PASS  ./tests/solver/Test_wilson_cg_prec
+runtime 0 seconds
+
+check ./tests/solver/Test_wilson_cg_schur
+PASS  ./tests/solver/Test_wilson_cg_schur
+runtime 0 seconds
+
+check ./tests/solver/Test_dwf_cg_prec
+PASS  ./tests/solver/Test_dwf_cg_prec
+runtime 15 seconds
+
+check ./tests/solver/Test_wilson_cg_unprec
+PASS  ./tests/solver/Test_wilson_cg_unprec
+runtime 0 seconds
+
+check ./tests/solver/Test_dwf_fpgcr
+PASS  ./tests/solver/Test_dwf_fpgcr
+runtime 36 seconds
+
+check ./tests/solver/Test_dwf_cg_prec_LsVec
+FAIL  ./tests/solver/Test_dwf_cg_prec_LsVec
+runtime 1 seconds
+
+check ./tests/solver/Test_zmobius_cg_prec
+PASS  ./tests/solver/Test_zmobius_cg_prec
+runtime 56 seconds
+
+check ./tests/solver/Test_wilson_lanczos
+PASS  ./tests/solver/Test_wilson_lanczos
+runtime 26 seconds
+
+check ./tests/solver/Test_dwf_lanczos
+PASS  ./tests/solver/Test_dwf_lanczos
+runtime 283 seconds
+
+check ./tests/solver/Test_dwf_cg_schur
+PASS  ./tests/solver/Test_dwf_cg_schur
+runtime 3 seconds
+
+check ./tests/solver/Test_dwf_hdcr
+FAIL  ./tests/solver/Test_dwf_hdcr
+runtime 1 seconds
+
+check ./tests/solver/Test_cf_cr_unprec
+PASS  ./tests/solver/Test_cf_cr_unprec
+runtime 26 seconds
+
+check ./tests/solver/Test_dwf_cr_unprec
+PASS  ./tests/solver/Test_dwf_cr_unprec
+runtime 12 seconds
+
+check ./tests/solver/Test_laplacian
+PASS  ./tests/solver/Test_laplacian
+runtime 18 seconds
+
+check ./tests/solver/Test_staggered_cg_unprec
+PASS  ./tests/solver/Test_staggered_cg_unprec
+runtime 0 seconds
+
+check ./tests/solver/Test_wilson_cr_unprec
+PASS  ./tests/solver/Test_wilson_cr_unprec
+runtime 1 seconds
+
+check ./tests/solver/Test_dwf_cg_unprec
+PASS  ./tests/solver/Test_dwf_cg_unprec
+runtime 8 seconds
+
+check ./tests/hadrons/Test_hadrons_rarekaon
+FAIL  ./tests/hadrons/Test_hadrons_rarekaon
+runtime 0 seconds
+
+check ./tests/hadrons/Test_hadrons_meson_3pt
+PASS  ./tests/hadrons/Test_hadrons_meson_3pt
+runtime 6151 seconds
+
+check ./tests/hadrons/Test_hadrons_spectrum
+PASS  ./tests/hadrons/Test_hadrons_spectrum
+runtime 265 seconds
+
+check ./tests/Test_simd
+PASS  ./tests/Test_simd
+runtime 0 seconds
+
+check ./tests/smearing/Test_WilsonFlow
+FAIL  ./tests/smearing/Test_WilsonFlow
+runtime 0 seconds
+
+check ./tests/Test_cayley_even_odd_vec
+FAIL  ./tests/Test_cayley_even_odd_vec
+runtime 2 seconds
+
+check ./tests/Test_cshift
+PASS  ./tests/Test_cshift
+runtime 2 seconds
+
+check ./tests/IO/Test_nersc_read
+FAIL  ./tests/IO/Test_nersc_read
+runtime 0 seconds
+
+check ./tests/IO/Test_nersc_io
+PASS  ./tests/IO/Test_nersc_io
+runtime 4 seconds
+
+check ./tests/IO/Test_serialisation
+PASS  ./tests/IO/Test_serialisation
+runtime 0 seconds
+
+
+SUMMARY:
+
+  PASS:  80
+  FAIL:  25
+  TOTAL: 105
+

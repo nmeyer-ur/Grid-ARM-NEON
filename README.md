@@ -11,9 +11,11 @@ file changes
     Grid_neon.h
 
 
-tested with
+developed and tested with
 
-    git commit
+    Grid git commit 4a8c4ccfba1d05159348d21a9698028ea847e77b
+    Author: Guido Cossu <guido.cossu@ed.ac.uk>
+    Date:   Fri Jun 2 17:02:29 2017 +0100
 
     clang 3.8 (no OpenMP support on our system)
     clang 4.0.0 (has OpenMP)
@@ -34,3 +36,10 @@ notes
     streaming missing, intrinsics-level commands unknown
 
     gcc 6.3.0 compile time is high
+
+
+testing
+
+    arm.neon.clang_4.0.dp.bench.openmp.txt
+    arm.neon.clang_4.0.dp.tests.openmp.txt
+
