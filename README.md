@@ -1,6 +1,5 @@
-ARMv8a 128-bit neon port of Grid intrinsics layer
-
-    supports double, single and half precision
+ARMv8a 128-bit neon intrinsics port for Grid
+supports double, single and half precision
 
 
 file changes
