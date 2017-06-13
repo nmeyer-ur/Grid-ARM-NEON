@@ -39,6 +39,13 @@ notes
 
 testing
 
+    double precision
+
     arm.neon.clang_4.0.dp.bench.openmp.txt
     arm.neon.clang_4.0.dp.tests.openmp.txt
+
+    single precision
+
+    arm.neon.clang_4.0.sp.bench.openmp.txt
+    arm.neon.clang_4.0.sp.tests.openmp.txt
 
