@@ -1,0 +1,48 @@
+
+check ./benchmarks/Benchmark_memory_asynch
+PASS  ./benchmarks/Benchmark_memory_asynch
+runtime 13 seconds
+
+check ./benchmarks/Benchmark_wilson_sweep
+FAIL  ./benchmarks/Benchmark_wilson_sweep
+runtime 98 seconds
+
+check ./benchmarks/Benchmark_memory_bandwidth
+PASS  ./benchmarks/Benchmark_memory_bandwidth
+runtime 0 seconds
+
+check ./benchmarks/Benchmark_dwf
+PASS  ./benchmarks/Benchmark_dwf
+runtime 30 seconds
+
+check ./benchmarks/Benchmark_wilson
+PASS  ./benchmarks/Benchmark_wilson
+runtime 1 seconds
+
+check ./benchmarks/Benchmark_mooee
+PASS  ./benchmarks/Benchmark_mooee
+runtime 40 seconds
+
+check ./benchmarks/Benchmark_staggered
+PASS  ./benchmarks/Benchmark_staggered
+runtime 1 seconds
+
+check ./benchmarks/Benchmark_dwf_sweep
+PASS  ./benchmarks/Benchmark_dwf_sweep
+runtime 109 seconds
+
+check ./benchmarks/Benchmark_su3
+PASS  ./benchmarks/Benchmark_su3
+runtime 30 seconds
+
+check ./benchmarks/Benchmark_comms
+FAIL  ./benchmarks/Benchmark_comms
+runtime 0 seconds
+
+
+SUMMARY:
+
+  PASS:  8
+  FAIL:  2
+  TOTAL: 10
+

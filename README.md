@@ -28,6 +28,15 @@ configure Grid using
     configure CXX=... CXXFLAGS="-std=c++11 -O3 -D NEONv8" --enable-simd=NEONv8
 
 
+known bugs/problems
+
+    Test_dwf_lanczos runs forever because of nan value in single precision with OpenMP
+    SP w/o OpenMP not tested
+
+    some Grid tests contain hardcoded double precision settings and therefore
+    do not compile out all in single precision
+
+
 notes
 
     Vset is defined but not used by Grid, currently untested
@@ -35,6 +44,8 @@ notes
     streaming missing, intrinsics-level commands unknown
 
     gcc 6.3.0 compile time is high
+
+    Benchmark_wilson_sweep consumes too much memory for our test server
 
 
 testing
